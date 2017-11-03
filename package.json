@@ -1,0 +1,23 @@
+{
+  "name": "desinax-vertical-grid",
+  "version": "1.0.0",
+  "description": "LESS vertical grid",
+  "main": "null",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desinax/vertical-grid.git"
+  },
+  "keywords": [
+    "LESS",
+    "grid"
+  ],
+  "author": "Mikael Roos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desinax/vertical-grid/issues"
+  },
+  "homepage": "https://github.com/desinax/vertical-grid#readme"
+}
