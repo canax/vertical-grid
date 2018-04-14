@@ -3,7 +3,7 @@ Revision History
 
 
 
-v1.0.1 (2017-11-03)
+v1.0.2 (2018-04-15)
 ------------------------
 
 * Add gitter, travis, circleci and makefile for tests.
