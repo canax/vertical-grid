@@ -1,7 +1,7 @@
 {
   "name": "@desinax/vertical-grid",
-  "version": "1.0.5",
-  "description": "LESS/SASS vertical grid",
+  "version": "1.0.6",
+  "description": "Desinax LESS/SASS module for vertical grid",
   "main": "null",
   "scripts": {
     "test": "make test"
