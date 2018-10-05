@@ -2,13 +2,9 @@
  * Fluid and Responsive Vertical Grid
  */
 /**
- * A small clearfix:
- * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
- */
-/**
  * Namespace what could be namespaced
  */
-#vgrid {
+#desinax-vgrid {
   /**
      * Wrap grid in a container.
      */
