@@ -1,0 +1,33 @@
+/**
+ * Fluid and Responsive Vertical Grid
+ */
+/**
+ * A small clearfix:
+ * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
+ */
+/**
+ * Namespace what could be namespaced
+ */
+#vgrid {
+  /**
+     * Wrap grid in a container.
+     */
+  /**
+     * Show grid.
+     */
+  /**
+     * All columns must be wrapped in a row.
+     */
+  /**
+     * Create a column spanning @col columns.
+     */
+  /**
+     * Push a column @offset columns.
+     */
+  /**
+     * Pull a column left @offset columns.
+     */
+  /**
+     * Pull a column right @offset columns.
+     */
+}
