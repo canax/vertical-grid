@@ -322,7 +322,19 @@ The following style adds a background image that represents the grid.
 }
 ```
 
-This is how it can look like when using a 24 column grid.
+The grid images are just an image representing the grid.
+
+This is the 24 column grid image.
+
+![grid 24](htdocs/img/grid_24x30x10-nomargin.png)
+
+This is the 12 column grid image.
+
+![grid 12](htdocs/img/grid_12x60x20-nomargin.png)
+
+You will need your own grid image if you have your own setup for the grid.
+
+This is how it can look like when using a 24 column grid and applying the grid image.
 
 ![With showgrid](doc/img/showgrid.png)
 
