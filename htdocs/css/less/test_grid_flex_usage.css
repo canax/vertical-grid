@@ -34,8 +34,8 @@
      */
 }
 .row {
-  display: block;
-  width: 101.04166667%;
+  display: flex;
+  flex-flow: row wrap;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
   background-color: rgba(0, 255, 0, 0.3);
@@ -46,60 +46,56 @@
   display: block;
   clear: both;
 }
+.region-above-main,
+.region-main {
+  display: flex;
+}
 .region-header {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-flash {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 82.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
 }
 .triptych {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .sidebar-left,
 .sidebar-right {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .main {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .fourth {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .half {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .region-footer {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
@@ -124,95 +120,102 @@
 .push20 {
   margin-left: 83.85416667%;
 }
+.col7 {
+  flex: 0 0 auto;
+  width: 28.125%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+.col8 {
+  flex: 0 0 auto;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.col16 {
+  flex: 0 0 auto;
+  width: 65.625%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 .a {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .b {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
 .a-shift {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 33.85416667%;
 }
 .b-shift {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: -99.47916667%;
 }
 .a-push-24 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 11.45833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 100.52083333%;
 }
 .a-pull-3 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 11.45833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: -11.97916667%;
 }
 .a-left-1 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: -3.64583333%;
 }
 .a-left-2 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: -7.8125%;
 }
 .b-right-1 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
 }
 .b-right-2 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
 }
 .b-right-3 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 13.02083333%;
 }
 .b-really-right-3 {
-  display: inline;
-  float: left;
+  flex: 0 0 auto;
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;

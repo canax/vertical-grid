@@ -124,6 +124,28 @@
 .push20 {
   margin-left: 83.85416667%;
 }
+.col7 {
+  display: inline;
+  float: left;
+  width: 28.125%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+.col8 {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.col16 {
+  display: inline;
+  float: left;
+  width: 65.625%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 .a {
   display: inline;
   float: left;
