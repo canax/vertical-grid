@@ -24,17 +24,17 @@ Table of content
 
 * [Documentation online](#documentation-online)
 * [Install](#install)
-* [About grid.less](#about-grid-less)
-* [Configure grid.less](#configure-grid-less)
-* [Using grid.less](#using-grid-less)
-    * [Prepare with HTML](#prepare-with-HTML)
-    * [Style the row](#Style-the-row)
-    * [Style the columns](#Style-the-columns)
-    * [Grid wrapper](#Grid-wrapper)
-    * [Responsive grid](#Responsive-grid)
-    * [Show the grid](#Show-the-grid)
-    * [Avoid styling the grid row or grid column](#Avoid-styling-the-grid-row-or-grid-column)
-* [More examples on usage](#More-examples-on-usage)
+* [About grid.less](#about-gridless)
+* [Configure grid.less](#configure-gridless)
+* [Using grid.less](#using-gridless)
+    * [Prepare with HTML](#prepare-with-html)
+    * [Style the row](#style-the-row)
+    * [Style the columns](#style-the-columns)
+    * [Grid wrapper](#grid-wrapper)
+    * [Responsive grid](#responsive-grid)
+    * [Show the grid](#show-the-grid)
+    * [Avoid styling the grid row or grid column](#avoid-styling-the-grid-row-or-grid-column)
+* [More examples on usage](#more-examples-on-usage)
 * [History](#history)
 * [License](#license)
 
@@ -280,15 +280,15 @@ Here follows a couple of images that show how the grid adapts for the media quer
 
 First how it looks like when no media query is active.
 
-![Width 800](doc/img/rresponsive-800.png)
+![Width 800](doc/img/responsive-800.png)
 
 Then how it looks when the first media query is applied when the width is less than 700.
 
-![Width 650](doc/img/rresponsive-650.png)
+![Width 650](doc/img/responsive-650.png)
 
 Ant then last, how it looks like when the second media query hits in. 
 
-![Width 500](doc/img/rresponsive-500.png)
+![Width 500](doc/img/responsive-500.png)
 
 We now have a fluid grid, with a max width and the grid being responsive at selected breakpoints.
 
@@ -301,9 +301,9 @@ When developing for the grid it might be helpful to show the grid to see that th
 Here are a couple of html pages where you can see the grid.
 
 * [Float with show grid (24 columns)](htdocs/float_showgrid.html) ([less source](src/less/test_grid_float_showgrid.less))
-* [Float with show grid (12 columns)](htdocs/float_showgrid_12.html) [less source](src/less/test_grid_float_showgrid_12.less))
-* [Flex with show grid (24 columns)](htdocs/flex_showgrid.html) [less source](src/less/test_grid_flex_showgrid.less))
-* [Flex with show grid (12 columns)](htdocs/flex_showgrid_12.html) [less source](src/less/test_grid_flex_showgrid_12.less))
+* [Float with show grid (12 columns)](htdocs/float_showgrid_12.html) ([less source](src/less/test_grid_float_showgrid_12.less))
+* [Flex with show grid (24 columns)](htdocs/flex_showgrid.html) ([less source](src/less/test_grid_flex_showgrid.less))
+* [Flex with show grid (12 columns)](htdocs/flex_showgrid_12.html) ([less source](src/less/test_grid_flex_showgrid_12.less))
 
 This is how its done.
 
@@ -407,7 +407,7 @@ You can review example usage HTML with generated CSS-files in the directory `htd
 History
 -------------------------------
 
-The idea behind this grid was originally implemented by Tyler Tate and it was called "The Semantic Grid System".
+The idea behind this grid was originally, to the best of my knowledge, implemented by Tyler Tate and it was called "The Semantic Grid System".
 
 This is [how the website looked](http://dbwebb-se.github.io/semantic.gs/webroot/) when it was live and running (I saved it for educational purpose).
 
