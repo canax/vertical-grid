@@ -412,7 +412,10 @@ But still, I prefer a well structured amount of wrappers to allow for all kind o
 More examples on usage
 -------------------------------
 
-You can review example usage HTML with generated CSS-files in the directory `htdocs/`. Open your browser to that directory and look around in the available files.
+The followig examples contain more example on how to use the grid.
+
+* [Grid usage (float)](htdocs/usage-float.html)
+* [Grid usage (flex)](htdocs/usage-flex.html)
 
 
 

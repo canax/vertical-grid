@@ -7,6 +7,7 @@ v1.1.0 (2018-10-24)
 ------------------------
 
 * Improve showGrid and change order of arguments making @maxWidth default to 100%.
+* Write documentation and publish on GitHub Pages.
 
 
 
