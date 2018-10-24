@@ -3,6 +3,13 @@ Revision History
 
 
 
+v1.1.0 (2018-10-24)
+------------------------
+
+* Improve showGrid and change order of arguments making @maxWidth default to 100%.
+
+
+
 v1.0.7 (2018-10-05)
 ------------------------
 
