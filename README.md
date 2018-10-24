@@ -46,9 +46,9 @@ Documentation online
 You can read this README and try out the example files `htdocs/*.html` by using GitHub Pages.
 
 * [GitHub Pages README](https://desinax.github.io/vertical-grid/).
-* [GitHub Pages htdocs/](https://desinax.github.io/vertical-grid/htdocs).
+* [GitHub Pages examples in htdocs/](https://desinax.github.io/vertical-grid/htdocs).
 
-That makes ie easier to both read this documentation and try out the examples on the same time.
+Viewing this documentation on GitHub Pages makes it easier to both read this documentation and try out the examples on the same time.
 
 
 
@@ -61,7 +61,7 @@ You can install using npm to take advantage of version management. Semantic vers
 npm install @desinax/vertical-grid
 ```
 
-Or clone this repo and use what you need.
+Or clone this repo and use it as is.
 
 
 
@@ -87,7 +87,7 @@ You can choose between a flex and a float implementation of the grid.
 
 You can set up the grid width of the columns, the gutter and the number of columns.
 
-The following are the same as the defaults which you can override to your own settings.
+The following are the same as the defaults which you can override to fit your own environment and liking.
 
 ```less
 /**
@@ -107,7 +107,7 @@ The following are the same as the defaults which you can override to your own se
 Using grid.less
 -------------------------------
 
-This is how you can use the grid, the example code can be tested by pointing a browser to `htdocs/readme_float.html`. An equal example using "flex" is available in `htdocs/readme_flex.html`.
+This is how you can use and implement the grid into your own style. The example code can be tested by pointing a browser to [`htdocs/float.html`](htdocs/float.html) ([Less source](src/less/test_grid_float.less)). An equal example using "flex" is available in [`htdocs/flex.html`](htdocs/flex.html) ([Less source](src/less/test_grid_flex.less)).
 
 
 
@@ -300,10 +300,10 @@ When developing for the grid it might be helpful to show the grid to see that th
 
 Here are a couple of html pages where you can see the grid.
 
-* [Float with show grid (24 columns)](htdocs/float_showgrid.html) ([less source](src/less/test_grid_float_showgrid.less))
-* [Float with show grid (12 columns)](htdocs/float_showgrid_12.html) ([less source](src/less/test_grid_float_showgrid_12.less))
-* [Flex with show grid (24 columns)](htdocs/flex_showgrid.html) ([less source](src/less/test_grid_flex_showgrid.less))
-* [Flex with show grid (12 columns)](htdocs/flex_showgrid_12.html) ([less source](src/less/test_grid_flex_showgrid_12.less))
+* [Float with show grid (24 columns)](htdocs/float_showgrid.html) ([Less source](src/less/test_grid_float_showgrid.less))
+* [Float with show grid (12 columns)](htdocs/float_showgrid_12.html) ([Less source](src/less/test_grid_float_showgrid_12.less))
+* [Flex with show grid (24 columns)](htdocs/flex_showgrid.html) ([Less source](src/less/test_grid_flex_showgrid.less))
+* [Flex with show grid (12 columns)](htdocs/flex_showgrid_12.html) ([Less source](src/less/test_grid_flex_showgrid_12.less))
 
 This is how its done.
 
